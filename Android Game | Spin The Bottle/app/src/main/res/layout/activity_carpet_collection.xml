@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_carpet_collection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wordpress.helpmevishal.spinthebotttleanywhere.CarpetCollection">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_one"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_one"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_two"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_two"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_three"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_three"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_four"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_four"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_five"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_five"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_six"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_six"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_seven"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_seven"/>
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/ic_carpet_eight"
+                    android:layout_weight="1"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ic_carpet_eight"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

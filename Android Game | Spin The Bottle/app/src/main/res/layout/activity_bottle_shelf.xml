@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bottle_shelf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_book_shelf"
+    tools:context="com.wordpress.helpmevishal.spinthebotttleanywhere.BottleShelf">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/ic_bottle_nine"
+                android:src="@drawable/ic_bottle_nine"
+                android:layout_marginTop="32dp"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+            <ImageView
+                android:src="@drawable/ic_bottle_eight"
+                android:layout_weight="1"
+                android:id="@+id/ic_bottle_eight"
+                android:layout_marginTop="25dp"
+                android:layout_width="100dp"
+                android:layout_height="160dp" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:id="@+id/ic_bottle_seven"
+                android:src="@drawable/ic_bottle_seven"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="3"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/ic_bottle_six"
+                android:layout_weight="1"
+                android:id="@+id/ic_bottle_six"
+                android:layout_marginTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+            <ImageView
+                android:src="@drawable/ic_bottle_five"
+                android:layout_weight="1"
+                android:id="@+id/ic_bottle_five"
+                android:layout_marginTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+            <ImageView
+                android:src="@drawable/ic_bottle_four"
+                android:layout_weight="1"
+                android:id="@+id/ic_bottle_four"
+                android:layout_marginTop="15dp"
+                android:layout_width="100dp"
+                android:layout_height="150dp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ic_bottle_three"
+                android:src="@drawable/ic_bottle_three"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+            <ImageView
+                android:id="@+id/ic_bottle_two"
+                android:src="@drawable/ic_bottle_two"
+                android:layout_weight="1"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+            <ImageView
+                android:id="@+id/ic_bottle_one"
+                android:src="@drawable/ic_bottle_one"
+                android:layout_weight="1"
+                android:layout_marginBottom="7dp"
+                android:layout_width="100dp"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
